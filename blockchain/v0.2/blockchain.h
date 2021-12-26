@@ -128,3 +128,4 @@ void block_mine(block_t *block);
 uint32_t blockchain_difficulty(blockchain_t const *blockchain);
 
 #endif
+

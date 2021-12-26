@@ -29,3 +29,4 @@ uint32_t blockchain_difficulty(blockchain_t const *blockchain)
 			last_block->info.difficulty - 1 : 0);
 	return (last_block->info.difficulty);
 }
+

@@ -14,3 +14,4 @@ void block_mine(block_t *block)
 		nonce++;
 	} while (!hash_matches_difficulty(block->hash, block->info.difficulty));
 }
+

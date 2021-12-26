@@ -14,3 +14,4 @@ uint8_t *block_hash(block_t const *block,
 	sha256((int8_t const *)&(block->info), len, hash_buf);
 	return (hash_buf);
 }
+
